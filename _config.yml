@@ -13,11 +13,12 @@ direction: ltr
 # A pair 'Key: url' will result in a link to 'url' with the name 'Key' in the
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
+# NOTE: We're using cleanUrls in main _config.yml, so we don't need .html at the end
 nav:
   home: /
-  about: /about/
+  about: /about
   articles: /archives/
-  projects: projects_url
+  projects: https://github.com/saxocellphone
 
 
 # Links to your social media accounts.
@@ -61,7 +62,7 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
+  start_year: 2020
   end_year:
 
 ##############################################################################
